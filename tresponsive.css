@@ -1,0 +1,122 @@
+/* Responsive Styles for tstyle.css */
+
+@media screen and (max-width: 1200px) {
+    #contact_section,
+    #company_logos,
+    .blog_content {
+      padding-left: 120px;
+      padding-right: 120px;
+    }
+    #form_box {
+      width: 100%;
+    }
+    #long_input_field {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .transport {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+    #contact_section {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    #form_box {
+      flex-direction: column;
+      width: 100%;
+    }
+    .input_field {
+      width: 100%;
+    }
+    #long_input_field {
+      width: 100%;
+    }
+    #company_logos {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .blog_content {
+      flex-direction: column;
+      padding: 20px;
+      width: 100%;
+    }
+    .blog_image,
+    .blog_text {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page_title_subtext {
+      font-size: 28px;
+    }
+    .team_image {
+      width: 100%;
+      height: auto;
+    }
+    .team_style {
+      width: 100%;
+      padding-left: 24px;
+      padding-top: 24px;
+      height: auto;
+    }
+    .company_images {
+      width: 45%;
+      height: auto;
+    }
+    .blog_text > h4,
+    .blog_text > p,
+    .blog_text > ul {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .page_title {
+      font-size: 12px;
+    }
+    .page_title_subtext {
+      font-size: 24px;
+    }
+    .contact_image {
+      width: 48px;
+      height: 48px;
+    }
+    .blog_image > img {
+      width: 100%;
+      height: auto;
+    }
+    .read_more_span {
+      padding: 24px;
+      font-size: 14px;
+      top: 10px;
+      right: 10px;
+    }
+    #hover_button {
+      width: 100%;
+      font-size: 16px;
+    }
+    #hover_button_span {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .input_field::placeholder {
+      font-size: 16px;
+    }
+    #submit_button {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
