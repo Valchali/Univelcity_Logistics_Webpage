@@ -1,6 +1,17 @@
 /* Responsive Styles for tstyle.css */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1240px) {
+    .team_style {
+      flex-wrap: wrap;
+    }
+    #company_logos {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
     #contact_section,
     #company_logos,
     .blog_content {
