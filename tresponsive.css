@@ -7,26 +7,15 @@
     #company_logos {
       flex-wrap: wrap;
       justify-content: center;
-      gap: 32px;
       width: 1400px;
+      gap: 40px;
     }
   }
-  .transport{
-    display: flex;
-    flex-direction: row;
-    gap: 28px ;
-    justify-content: center;
-    padding-bottom: 100px;
-
-}
-    #contact_section{
-      padding-left: 240px;
-      padding-right: 240px;
-      gap: 56px;
-
-    }
   
   @media screen and (max-width: 1200px) {
+    .transport {
+      flex-wrap: wrap;
+    }
     #contact_section,
     #company_logos,
     .blog_content {
@@ -39,30 +28,50 @@
     #long_input_field {
       width: 100%;
     }
+    #company_logos {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+      width: 1000px;
+
+    }
   }
   
+
   @media screen and (max-width: 992px) {
     .transport {
       flex-direction: column;
       align-items: center;
       gap: 40px;
     }
+  
     #contact_section {
       flex-direction: column;
       align-items: center;
       padding-left: 40px;
       padding-right: 40px;
+      margin-bottom: 28px;
     }
+  
     #form_box {
       flex-direction: column;
       width: 100%;
+      padding-top: 0px;
     }
+  
     .input_field {
-      width: 100%;
+      width: 365px;
+      height: 60px;
+      border: #4E5683 solid 1px;
+      background-color: transparent;
+      padding: 20px 28px;
     }
+  
     #long_input_field {
       width: 100%;
     }
+  
     #company_logos {
       flex-wrap: wrap;
       justify-content: center;
@@ -70,16 +79,59 @@
       padding-left: 40px;
       padding-right: 40px;
     }
+  
     .blog_content {
+      display: flex;
       flex-direction: column;
-      padding: 20px;
-      width: 100%;
+      justify-content: center;
+      text-align: left;
+      padding-top: 28px;
+      padding-left: 120px;
+      padding-bottom: 36px;
+      padding-right: 120px;
+      gap: 20px;
+      border-top: 1px solid #D6D6D6;
     }
+  
     .blog_image,
     .blog_text {
       width: 100%;
     }
+  
+    .blog_section_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+  
+    .blog_image_with_span {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .blog_details_wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 90%;
+      gap: 20px;
+    }
+  
+    .blog_date {
+      flex-shrink: 0;
+    }
+  
+    .blog_text {
+      flex: 1;
+    }
   }
+  
+
   
   @media screen and (max-width: 768px) {
     .page_title_subtext {
@@ -146,3 +198,4 @@
       font-size: 16px;
     }
   }
+  
