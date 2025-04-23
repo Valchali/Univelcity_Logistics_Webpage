@@ -11,6 +11,12 @@
       gap: 40px;
     }
   }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   @media screen and (max-width: 1200px) {
     .transport {
@@ -84,18 +90,23 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       text-align: left;
       padding-top: 28px;
-      padding-left: 120px;
       padding-bottom: 36px;
-      padding-right: 120px;
-      gap: 20px;
+      gap: 28px;
       border-top: 1px solid #D6D6D6;
+      width: fit-content;
+
     }
   
     .blog_image,
     .blog_text {
       width: 100%;
+
+    }
+    #imagesss{
+      display: flex;
     }
   
     .blog_section_wrapper {
@@ -129,6 +140,12 @@
     .blog_text {
       flex: 1;
     }
+    .blog_details{
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
 
@@ -147,20 +164,35 @@
       padding-top: 24px;
       height: auto;
     }
-    .company_images {
-      width: 45%;
-      height: auto;
-    }
+    .company_images{
+      border: 1px solid #4E5683;
+      width: 240px;
+      height: 200px;
+  }
+  #company_logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+
     .blog_text > h4,
     .blog_text > p,
     .blog_text > ul {
       width: 100%;
+    }
+    .blog_details{
+      display: flex;
+      flex-direction: column;
     }
   }
   
   @media screen and (max-width: 576px) {
     .page_title {
       font-size: 12px;
+    }
+    .blog_details{
+      display: flex;
+      flex-direction: column;
     }
     .page_title_subtext {
       font-size: 24px;
@@ -187,6 +219,52 @@
       width: 20px;
       height: 20px;
     }
+    .blog_text > h4{
+      font-family: "rubik", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      width: 335px;
+  
+  }
+  .blog_text > p{
+    font-family: "krub", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666C89;
+    width: 335px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.blog_text > ul{
+  color: #1C1F35;
+  font-family: "krub", sans-serif;
+  font-weight: 500;
+  padding-left: 16px;
+  font-size: 14px;
+
+}
+.read_more_span {
+  position: absolute;
+  text-decoration: none;
+  padding: 80px 80px;
+  text-align: center;
+  background-color: rgba(28, 31, 53, 0.91);
+  color: #fff;
+  font-family: "krub", sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  right: 40px;
+  top: 44px;
+  opacity: 0;
+  transform: translateY(20px); /* start slightly lower */
+}
+
+.blog_image:hover .read_more_span {
+  opacity: 1;
+  transform: translateY(0); /* move to correct position */
+}
+
   }
   
   @media screen and (max-width: 375px) {
@@ -197,5 +275,91 @@
       width: 100%;
       font-size: 16px;
     }
+    .blog_content{
+      padding: 0px 120px;
+    }
+    #company_logos{
+      display: flex;
+      flex-wrap: wrap;
+      width: 240px;
+      gap: 28px;
+    }
+    .company_images{
+      border: 1px solid #4E5683;
+      width: 280px;
+      height: 240px;
+  }
+  .blog_image{
+    width: 320px;
+    height: 280px;
+    position: relative;
+    display: inline-block;
+    padding-top: 36px;
+}
+.blog_details{
+  display: flex;
+  gap: 32px;
+  width: 200px;
+  padding-bottom: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.blog_text > h4{
+  font-family: "rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 200px;
+
+}
+.blog_text > p{
+font-family: "krub", sans-serif;
+font-size: 12px;
+font-weight: 500;
+color: #666C89;
+width: 200px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.blog_text > ul{
+color: #1C1F35;
+font-family: "krub", sans-serif;
+font-weight: 500;
+padding-left: 16px;
+font-size: 14px;
+width: 200px;
+  }
+
+.read_more_span {
+  position: absolute;
+  text-decoration: none;
+  padding: 80px 80px;
+  text-align: center;
+  background-color: rgba(28, 31, 53, 0.91);
+  color: #fff;
+  font-family: "krub", sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  right: 40px;
+  top: 44px;
+  opacity: 0;
+  transform: translateY(20px); /* start slightly lower */
+}
+
+.blog_image:hover .read_more_span {
+  opacity: 1;
+  transform: translateY(0); /* move to correct position */
+}
+.blog_image_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+
+
   }
   

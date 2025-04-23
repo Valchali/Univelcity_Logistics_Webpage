@@ -279,6 +279,10 @@ html, body {
     border-left: 1px solid #D6D6D6;
     padding-left: 28px;
 }
+.blog_details{
+    display: flex;
+    gap: 32px;
+}
 
 .blog_text > h4{
     font-family: "rubik", sans-serif;
