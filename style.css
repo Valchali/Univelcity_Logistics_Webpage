@@ -456,6 +456,183 @@ html, body {
 }
 
 
+/* Ezekiel Second Section */
+.testimonal {
+    max-width: 1200px;
+    height: 542px;
+    margin-left: 210px;
+    margin-right: 360px;
+    margin-top: 98px;
+    margin-bottom: 98px;
+}
+.up {
+    max-width: 404px;
+    height: 77px;
+    gap: 13px;
+}
+.say {
+    width: 404px;
+    height: 41px;
+}
+.say h2 {
+    font-weight: 600px;
+    font-size: 32px;
+    color: #1C1F35;
+}
+.choose {
+    width: 97px;
+    height: 23px;
+}
+.choose .tee {
+    width: 93px;
+    height: 23px;
+    padding: 3px, 9px;
+    left: 4px;
+    gap: 10px;
+    background-color: #E8E8E880;
+}
+.choose img {
+    width: 4px;
+    height: 23px;
+}
+.choose .tee p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C1F35;
+}
+#box {
+    display: flex;
+}
+.refferal {
+    width: 600px;
+    height: 425px;
+    border: 2px solid black;
+    background-color: #F4F4F4;
+}
+.smith {
+    display: flex;
+}
+.top {
+    width: 456px;
+    height: 301px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+.testifier {
+    width: 2451px;
+    height: 91px;
+    gap: 10px;
+    display: flex;
+}
+.testifier img {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+}
+.testifier .name {
+    width: 148px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name h3 {
+    width: 148px;
+    height: 24px;
+    font-weight: 550;
+    font-size: 22px;
+    color: #091242;
+}
+.name p {
+    width: 106px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #091242;
+}
+.comma img {
+   width: 53px;
+   height: 53px;
+   margin-right: 0px;
+  margin-left: 121px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.comma {
+    margin-right: -100;
+}
+.paragraph {
+    width: 456px;
+    height: 91px;
+    margin-top: 24px;
+}
+.paragraph p {
+    width: 420px;
+    height: 120px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    color: #666C89;
+}
+.rating {
+    width: 180px;
+    height: 34px;
+    font-size: 32px;
+    color: #FDAF3B;
+    margin-top: -10px;
+}
+.star {
+    width: 34px;
+    height: 34px;
+    color: #FDAF3B;
+}
+.refferal-2 {
+    width: 600px;
+    height: 425px;
+    border: 2px solid black;
+    background-color: #091242;
+    color: #fff;
+}
+.testifier img {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+}
+.testifier .name-2 {
+    width: 148px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name-2 h3 {
+    width: 148px;
+    height: 24px;
+    font-weight: 550;
+    font-size: 22px;
+    color: #fff;
+}
+.name-2 p {
+    width: 161px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.paragraph-2 {
+    width: 456px;
+    height: 91px;
+    margin-top: 24px;
+}
+.paragraph-2 p {
+    width: 420px;
+    height: 120px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    color: #fff;
+}
+
 /* THE TRANSPORTERS PAGE */
 
 .page_title{
