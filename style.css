@@ -365,6 +365,95 @@ html, body {
     max-width: 1920px;
 
   }
+  .transport {
+    width: 1567px;
+    max-width: 1970px;
+    height: 759px;
+    background: linear-gradient(180deg,#ffffff 50%, #FFB629 50%);
+    display: flex;
+    flex-direction: column;
+}
+.transport h2 {
+    width: 524px;
+    height: 41px;
+    text-align: center;
+    color: #1C1F35;
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 500px;
+    margin-top: 26px;
+}
+.photos {
+    /* width: 1920px; */
+    width: fit-content;
+    height: 450px;
+    display: flex;
+    /* background: linear-gradient(#FFB629, #FFDA56, #FFD7A6); */
+    margin: 300px auto 0;
+    margin-top: 80px;
+    gap: 10px;
+    margin-left: 90px;
+}
+
+.pic img {
+    width: 270px;
+    height: 360px;
+    /* margin-left: 10px; */
+    /* margin-top: -250px; */
+}
+/* GROUP HOVER BUTTON */
+.btn {
+    width: fit-content;
+    height: 40px;
+    margin-left: 690px;
+    margin-top: -60px;
+}
+.more-work {
+    position: relative;
+    background: #091242;
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+
+.more-work-text {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+    margin-top: 200px;
+}
+
+.more-work-circle {
+    position: absolute;
+    right: -4%;
+    bottom: -7%;
+    width: 30px;
+    height: 30px;
+    background-color: #666C89;
+    border-radius: 100% 100% 0% 100%;
+    transition: all 1.0s ease;
+    z-index: 1;
+}
+
+.more-work:hover .more-work-circle {
+    width: 150%;
+    height: 500%;
+    right: -25%;
+    bottom: -200%;
+    transition: all 0.8s ease;
+}
+
+.more-work:hover .more-work-text {
+    color:#23212A;
+}
 
 
 /* THE TRANSPORTERS PAGE */
