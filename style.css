@@ -365,7 +365,7 @@ html, body {
     max-width: 1920px;
 
   }
-  .transport {
+  .kodak-transport {
     width: 1567px;
     max-width: 1970px;
     height: 759px;
@@ -373,7 +373,7 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-.transport h2 {
+.kodak-transport h2 {
     width: 524px;
     height: 41px;
     text-align: center;
@@ -383,7 +383,7 @@ html, body {
     margin-left: 500px;
     margin-top: 26px;
 }
-.photos {
+.kodak-photos {
     /* width: 1920px; */
     width: fit-content;
     height: 450px;
@@ -395,14 +395,14 @@ html, body {
     margin-left: 90px;
 }
 
-.pic img {
+.kodak-pic img {
     width: 270px;
     height: 360px;
     /* margin-left: 10px; */
     /* margin-top: -250px; */
 }
 /* GROUP HOVER BUTTON */
-.btn {
+.kodak-btn {
     width: fit-content;
     height: 40px;
     margin-left: 690px;
@@ -457,7 +457,7 @@ html, body {
 
 
 /* Ezekiel Second Section */
-.testimonal {
+.kodak-testimonal {
     max-width: 1200px;
     height: 542px;
     margin-left: 210px;
@@ -465,54 +465,58 @@ html, body {
     margin-top: 98px;
     margin-bottom: 98px;
 }
-.up {
+.kodak-up {
     max-width: 404px;
     height: 77px;
     gap: 13px;
+    margin-top: 5px;
 }
-.say {
+.kodak-say {
     width: 404px;
     height: 41px;
 }
-.say h2 {
+.kodak-say h2 {
     font-weight: 600px;
     font-size: 32px;
     color: #1C1F35;
 }
-.choose {
+.kodak-choose {
     width: 97px;
     height: 23px;
 }
-.choose .tee {
+.kodak-choose .tee {
     width: 93px;
     height: 23px;
     padding: 3px, 9px;
-    left: 4px;
+    left: 6px;
     gap: 10px;
+    margin-top: -28px;
+    margin-left: 2px;
     background-color: #E8E8E880;
 }
-.choose img {
+.kodak-choose img {
     width: 4px;
     height: 23px;
 }
-.choose .tee p {
+.kodak-choose .tee p {
     font-weight: 400;
     font-size: 14px;
     color: #1C1F35;
+
 }
 #box {
     display: flex;
 }
-.refferal {
+.kodak-refferal {
     width: 600px;
     height: 425px;
     border: 2px solid black;
     background-color: #F4F4F4;
 }
-.smith {
+.kodak-smith {
     display: flex;
 }
-.top {
+.kodak-top {
     width: 456px;
     height: 301px;
     margin-top: 62px;
@@ -520,18 +524,18 @@ html, body {
     margin-left: 72px;
     margin-right: 72px;
 }
-.testifier {
+.kodak-testifier {
     width: 2451px;
     height: 91px;
     gap: 10px;
     display: flex;
 }
-.testifier img {
+.kodak-testifier img {
     width: 91px;
     height: 91px;
     border-radius: 50%;
 }
-.testifier .name {
+.kodak-testifier .name {
     width: 148px;
     height: 50px;
     margin-top: 20px;
@@ -575,14 +579,14 @@ html, body {
     font-size: 16px;
     color: #666C89;
 }
-.rating {
+.kodak-rating {
     width: 180px;
     height: 34px;
     font-size: 32px;
     color: #FDAF3B;
-    margin-top: -10px;
+    margin-top: 20px;
 }
-.star {
+.kodak-rating .star {
     width: 34px;
     height: 34px;
     color: #FDAF3B;
@@ -635,7 +639,7 @@ html, body {
 
 
 /* Ezekiel 3rd Srction */
-.container {
+.kodak-container {
     width: 19px;
     height: 11px;
     background-color: #666C89;
