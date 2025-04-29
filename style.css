@@ -143,29 +143,7 @@ button {
     color: #FFFFFF;
 }
 
-/* EXPLORE BUTTON STYLES */
-/* .explore-btn {
-    top: 315px;
-    width: 194px;
-    height: 60px;
-    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
-    color: #23212A;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 20px;
-    font-family: krub;
-    line-height: 135%;
-    letter-spacing: 0%;
-    
-}
 
-.explore-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-} */
 
 /* GROUP HOVER BUTTON */
 .group {
@@ -245,7 +223,7 @@ button {
 }
 
 .services {
-    position: absolute;
+    /* position: absolute;
     border: 1px solid red;
     width: 1200px;
     height: 311px;
@@ -254,8 +232,30 @@ button {
     gap: 33px;
     margin-top: 96px;
     margin-bottom: 121px;
+    display: flex; */
+    
+        /* Remove these absolute positioning properties */
+        /* position: absolute; */
+        /* top: 1131px; */
+        
+        width: 1200px;
+        margin: 96px auto 121px; /* top | horizontal | bottom */
+        padding: 0 20px; /* Add some side padding */
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        gap: 33px;
+        border: 1px solid red; /* Keep for debugging, remove later */
+    
+ 
+}
+.services-wrapper{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 391px;
+    height: 115px;
+
 }
 
 .services-layout {
@@ -265,9 +265,112 @@ button {
     margin-right: 33px;
     margin-bottom: 180px;
 }
+.services-container {
+    /* width: 1200px;  */
+    /* margin: 0 auto; */
+    display: flex;
+    /* gap: 33px; */
+}
+
+.content-container{
+    display: flex;
+
+    flex-direction: column;
+    width: 873px;
+    height: 311px;
+    gap: 70px;
+     border: 1px solid red;
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parent{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.services-wrapper2{
+    width: 398px;
+    height: 115px;
+    gap: 28px;
+}
+.services-icon {
+    width: 49.32px;
+    height: 53.38px;
+    left: 9px;
+    border: 2px;
+   
+    /* flex-shrink: 0; */
+}
+
+.service-detail {
+    display: flex;
+    flex-direction: column;
+   width: 295px;
+   height: 115px;
+   gap: 13px;
+   left: 125px;
+   border-left: 1px solid #D8D8D8;
+   gap: 16px;
+}
+
+.services-label {
+   width: 267px;
+   height: 30px;
+   font-family: Rubik;
+   font-size: 25px;
+   line-height: 100%;
+   letter-spacing: 0%;
+   color: #1C1F35;
+   margin-bottom: 13px;
+   gap: 16px;
+   padding-left: 10px;
+}
+
+.services-approval{
+  width: 270px;
+  height: 72px;
+  font-family: Krub;
+  font-size: 16px;
+  line-height: 152%;
+  letter-spacing: 0%;
+  padding-left: 10px;
+
+}
 
 
+.services-wrapper img{
+    width: 49.32px;
+    height: 53.38px;
+    left: 9px;
+    border: 2px;
+}
+.sub-content1{
+    width: 391px;
+    height: 115px;
+    gap: 16px;
+    border: 1px solid red;
+}
 
+.sub-sibling1{
+    width: 84px;
+    height: 115px;
+    border: 1px solid red;
+}
+.sub-sibling2{
+    width:295px; 
+    height:115px;
+    margin-left: 16px;
+    border: 1px solid red;
+}
 .sub-text {
     width: 96px;
     height: 23px;
@@ -306,16 +409,55 @@ button {
     letter-spacing: 0%;
 }
 
-.content-mother{
-    border: 1px solid red;
-    width: 873px;
-    height: 311px;
-    gap: 70px;
-    margin-left: 327px;
-    margin-right: 360px;
+.about{
+   max-width: 1925px;
+    height: 1168px;
+    top: -1563px;
+    left: -5px;
+    gap: 112px;
+    border: 2px solid red;
 }
 
 
+.about-BG > img{
+    position: absolute;
+    /* width: 1919px; */
+    max-width: 1919px;
+    height: 504px;
+    gap: 6px;
+}
+
+.about-wrapper{
+    width: 1925px;
+    height: 913px;
+    border: 1px solid red;
+}
+
+.Background-layout{
+    position: relative;
+    width: 1200px;
+    height: 502px;
+    top: 366px;
+    margin-left: 365px;
+    margin-right: 360px;
+    margin-bottom: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid red;
+    align-self: center;
+    justify-content: center;
+}
+
+.content-layout{
+    width: 1021px;
+    height: 462px;
+    top: 451px;
+    left: 451px;
+    border: 1px solid red;
+    margin-left: 86px;
+    margin-right: 96px;
+    margin-top: 85px;
+    
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
